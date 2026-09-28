@@ -1,0 +1,10 @@
+{
+  "name": "metropolis",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "python -m http.server 3000 --directory ai_trader/frontend/static",
+    "preview": "python -m http.server 4173 --directory ai_trader/frontend/static",
+    "serve": "python -m http.server 8000 --directory ai_trader/frontend/static"
+  }
+}
